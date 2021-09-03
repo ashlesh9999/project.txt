@@ -59,7 +59,7 @@ import java.util.ArrayList;
       s.attach(new ConcreteObserver(s, "9"));
 
      
-      s.setCourseState("Already registered");
+      s.setCourseState(" registered ");
       s.notifyObservers();
    }
  }
